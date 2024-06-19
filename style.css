@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+.counter {
+    max-width: 350px;
+    min-height: 200px;
+    background-color: rgb(164, 86, 236);
+    border: 2px solid white;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+.counter .sub-div{
+    margin-left: 50px;
+    margin-top: 14px;
+    background-color: white;
+    max-width: 220px;
+    min-height: 120px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(128, 125, 125, 0.372);
+}
+.sub-div h1, p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+p{
+    background-color: white;
+    width: 40px;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 90px;
+}
+#decre-btn{
+    margin-left: 18px;
+    margin-top: 8px;
+    padding: 2px;
+    
+}
+#rst-btn{
+    margin-left: 10px;
+    margin-top: 8px;
+    padding: 2px;
+    
+}
+#inc-btn{
+    margin-left: 10px;
+    margin-top: 8px;
+    padding: 2px;
+    
+}
